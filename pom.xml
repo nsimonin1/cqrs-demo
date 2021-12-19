@@ -27,13 +27,22 @@
 		<dependency>
 			<groupId>org.axonframework</groupId>
 			<artifactId>axon-spring-boot-starter</artifactId>
-			<version>4.5.4</version>
+			<version>4.5.5</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.axonframework</groupId>
 					<artifactId>axon-server-connector</artifactId>
 				</exclusion>
+				<exclusion>
+					<groupId>com.thoughtworks.xstream</groupId>
+					<artifactId>xstream</artifactId>
+				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.18</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
